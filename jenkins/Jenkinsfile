@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-    maven 'Maven 3.8.6'  // this name matches the Global Tool Configuration entry
+    maven 'Maven-3.8.7'  // this name matches the Global Tool Configuration entry
     }
     options {
         skipStagesAfterUnstable()
